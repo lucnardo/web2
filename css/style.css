@@ -5,6 +5,47 @@
     text-decoration: underline black;
     text-align: center;
 }
+.center {
+    text-align: center;
+}
+.progress {
+    text-align: center;
+        color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#progressbar1 {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+    margin-left: 713px;
+}
+#progressbar1>div {
+  background-color: lawngreen;
+  width: 2%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+
+#progressbar2 {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+    margin-left: 713px;
+}
+#progressbar2>div {
+  background-color: lawngreen;
+  width: 20%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
 
 
 
